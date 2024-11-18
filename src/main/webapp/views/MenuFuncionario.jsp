@@ -18,8 +18,8 @@
             <button class="search-button"></button>
         </div>
         <div class="user-options">
-            <a href="#">Entre ou cadastre-se </a>
-            <a href="ProdutoServlet.java">Adicionar produtos</a>
+            <a href="index.jsp">Entre ou cadastre-se </a>
+            <a href="cadastroProduto.jsp">Adicionar produtos</a>
         </div>
     </header>
 

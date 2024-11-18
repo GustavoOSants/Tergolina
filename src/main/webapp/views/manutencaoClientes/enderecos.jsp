@@ -1,20 +1,11 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Insert title here</title>
-</head>
-<body>
-
-</body>
 
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Informações</title>
+<title>Endereços</title>
 <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/DadosPessoais.css">
 </head>
 <body>
@@ -28,8 +19,7 @@
             <a href="#">Carrinho</a>
         </div>
     </header>
-  
-   <br>
+    <br>
    <br>
    <div class="pagina">
    <div class="barraLateral">
@@ -52,34 +42,26 @@
    	
    </div>
    <div class="barraLateralDireita">
-   <span>Dados Pessoais</span>
+   <span>Endereços</span>
    <br>
-   <label for="nome">Nome Completo:</label>
+   <label for="cep">CEP:</label>
+   <input type="number" name="cpf" placeholder="">
    <br>
-   <input type="text" name="nome" placeholder="Null">
    <br>
-    <br>
-   <label for="nascimento">Data Nascimento</label>
+   <label for="bairro">Bairro:</label>
+   <input type="text" name="bairro" placeholder="">
    <br>
-   <input type="date" name="nascimento" placeholder="dd/mm/aaaa">
    <br>
-    <br>
-   <label for="telefone">Telefone:</label>
+   <label for="rua">Rua:</label>
+   <input type="text" name="rua" placeholder="">
    <br>
-   <input type="tel" name="telefone" placeholder="(00) 0000-0000">
    <br>
-    <br>
-     <label for="email">Email:</label>
-     <br>
-    <input type="email" name="email" placeholder="Digite seu email">
-   <br>
-    <br>
-    <label for="cpf">CPF:</label>
-    <br>
-    <input type="number" name="cpf" placeholder="123.456.789-00">
-   <br>
-    <br>
-    <button type="submit">Adicionar Endereço</button>
+   <label for="complemento">Complemento:</label>
+   <input type="text" name="complemento" placeholder="">
+      <br>
+      <br>
+
+        <button type="submit">Adicionar Endereço</button>
    </div>
    
    

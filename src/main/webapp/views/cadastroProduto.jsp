@@ -12,10 +12,11 @@
 </head>
 <body>
     <header>
-        <div class="logo">Timolina</div>
+       <div class="logo">Timolina</div>
         <div class="menu">
-            <a href="#"> Bem-vindo</a>
-            <a href="#"> Entre ou cadastre-se</a>
+            <a href="MenuFuncionario.jsp">Bem-vindo</a>
+            <br>
+            <a>Entre ou cadastre-se</a>
             <a href="cadastroProduto.jsp">Adicionar produto</a>
             <a href="#">Carrinho</a>
         </div>

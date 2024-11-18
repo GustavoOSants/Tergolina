@@ -31,7 +31,7 @@
             }
         %>
 
-        <form action="${pageContext.request.contextPath}/LoginServlet2" method="post">
+        <form action="${pageContext.request.contextPath}/views/MenuFuncionario.jsp" method="post"> 
             <label for="email">Informe seu E-mail:</label>
             <input type="email" name="email" required><br>
 
@@ -40,7 +40,7 @@
 
             <a href="" class="forgot-password">Esqueci minha senha</a> 
             
-            <a href="http://localhost:8080/TIMOLINA/views/index.jsp"><button type="submit">Entrar</button></a>
+            <a href="${pageContext.request.contextPath}/views/MenuFuncionario.jsp"><button type="submit">Entrar</button></a>
             
             
         </form>
